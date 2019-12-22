@@ -1,0 +1,3 @@
+rclone --config "%userprofile%/.config/desktop.teamdrive.conf" --progress --ignore-case --skip-links --fast-list --exclude "System*/" --exclude "$*/" --backup-dir desktop:backupDir01 --log-file E:desktop.log copy O:Desktop desktop:Desktop 
+rclone --config "C:\Users\Administrator\.config\documents.teamdrive.conf" --progress --ignore-case --skip-links --fast-list --exclude "System*/" --exclude "$*/" --backup-dir documents:backupDir01 --log-file E:documents.log copy O:Documents/10 documents:Documents 
+rclone --config "C:\Users\Administrator\.config\downloads.teamdrive.conf" --fast-list --progress --ignore-case --skip-links --fast-list --exclude "System*/" --exclude "$*/" --backup-dir downloads:backupDir01 --log-file E:downloads.log copy O:Downloads/01 downloads:Downloads 

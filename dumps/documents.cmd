@@ -1,0 +1,1 @@
+rclone --config "C:\Users\Administrator\.config\documents.teamdrive.conf" --progress --ignore-case --skip-links --fast-list --exclude "System*/" --exclude "$*/" --backup-dir documents:backupDir01 --log-file E:documents.log copy O:Documents/10 documents:Documents 

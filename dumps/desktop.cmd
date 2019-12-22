@@ -1,0 +1,1 @@
+rclone --config "%userprofile%/.config/desktop.teamdrive.conf" --progress --ignore-case --skip-links --fast-list --exclude "System*/" --exclude "$*/" --backup-dir desktop:backupDir01 --log-file E:desktop.log copy O:Desktop desktop:Desktop 
